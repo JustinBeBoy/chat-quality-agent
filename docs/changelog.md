@@ -7,6 +7,8 @@
 - **Nút Dừng job**: Có thể dừng job đang chạy từ giao diện (#7)
 - **Docs + Version**: Hiển thị ở sidebar, truy cập nhanh tài liệu và changelog
 - **URL ứng dụng**: Cấu hình URL trong Cài đặt để link thông báo Telegram/Email chính xác (#43)
+- **Lịch chạy "Sau mỗi lần đồng bộ"**: Tự động chạy phân tích sau khi đồng bộ kênh thành công (#7, #45)
+- **Cron hot-reload**: Tạo/sửa/xóa job "Theo lịch" không cần restart app
 
 ### Sửa lỗi
 - **Job bị treo**: Fix infinite loop khi batchSize=0, thêm context cancellation check, check lỗi DB query (#7)
